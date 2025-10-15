@@ -1,8 +1,33 @@
-\- Se creó archivo1.txt y se subió a mi rama FernandoC.
+## Experiencias y aprendizajes - Fernando
+1. Creando mi propia rama
+Lo primero que hice fue crearme mi rama `FernandoC` para trabajar sin molestar a nadie. Usé `git checkout -b FernandoC` y luego la subí con `git push -u origin FernandoC`. 
+Así cada uno puede trabajar en lo suyo sin pisar el trabajo de los demás. Bastante útil la verdad.
+## 2. Haciendo commits
+Creé un par de archivos (`fernando.txt` y `codigo_fernando.py`) y fui haciendo varios commits. Lo básico: `git add` para preparar los archivos y `git commit -m "mensaje"` para guardarlos.
+Lo que aprendí es que es mejor hacer commits pequeños y con mensajes claros. Si luego algo falla, es más fácil encontrar dónde.
+## 3. primer conflicto (y cómo lo resolví)
+Aquí vino lo interesante. Tanto mi compañero como yo modificamos el archivo `experiencia.md` desde distintas ramas. Cuando intenté hacer merge, 
+El archivo se llenó de estos marcadores:
+```
+<<<<<<< HEAD
+(mis cambios)
+=======
+(cambios del compañero)
+>>>>>>> main
+```
+Lo que hice fue abrir el archivo, borrar esos marcadores y juntar ambos cambios a mano. Luego `git add`, `git commit` y `git push`. Problema resuelto.
+## 4. Trabajo en equipo
+La clave fue ir haciendo `git pull` de vez en cuando para no quedarnos desactualizados.
+Lo importante: hablarse con el equipo. Si los dos vamos a tocar el mismo archivo, mejor avisar para no liarnos después con conflictos.
 
-\- Se modificó archivo1.txt añadiendo una nueva línea.
-
-\- Se creó archivo\_main.txt en main para probar merges.
+### 5. Comandos que más usé
+- `git checkout -b <rama>` → Crear rama nueva
+- `git add <archivo>` → Preparar cambios
+- `git commit -m "mensaje"` → Guardar cambios
+- `git push` → Subir al repositorio
+- `git pull` → Bajar cambios de otros
+- `git merge <rama>` → Fusionar ramas
+- `git status` → Ver qué está pasando
 
 Eva:
 He creado una rama nueva con el nombre eva2, me he metido en ella y he creado un readme de nombre tareas-eva.md en el que he escrito para probar las tareas de mi dia.
