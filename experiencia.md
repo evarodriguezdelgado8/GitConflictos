@@ -12,3 +12,9 @@ Al pricipio ha sido un pco frustrante porque no sabiamos como resolver los probl
 
 Hola fernando
 
+
+Paco:
+Hemos creado diferentes ramas,trabajado en ellas creando diferentes archivos,y creando conflictos al fusionar las ramas.
+Algunos se han solucionado y otros han sido mas dificiles y no he podido terminarlos.
+Tengo que practicar mas este aspecto de Git.
+
