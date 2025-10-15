@@ -10,5 +10,5 @@ Despues he cambiado de rama otra vez a la main y he hecho merge para juntarlas.
 Despues hemos generado un conflicto modificando el archivo desde distintas ramas para generar conflicto y lo hemos solucionado dejandolo de nuevo como estaba antes.
 Al pricipio ha sido un pco frustrante porque no sabiamos como resolver los problemas que teniamos, pero finalmente hemos podido resolverlos.
 
-
+Hola fernando
 
