@@ -1,1 +1,1 @@
-Mis tareas del dia
+-Ir a clase
