@@ -1,1 +1,4 @@
 -Ir a clase
+-Hacer mis tareas de despligue
+-Limpiar la cocina
+-Ir a clase
